@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About | OG's Fashion House</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#000;
+color:white;
+font-family:Inter;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+border-bottom:1px solid #111;
+}
+
+.logo{
+font-family:"Playfair Display";
+font-size:26px;
+color:#ff2e8f;
+}
+
+nav a{
+margin-left:28px;
+text-decoration:none;
+color:#ccc;
+font-size:14px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff2e8f;
+}
+
+.hero{
+
+height:70vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+
+background:linear-gradient(180deg,#0a0a0a,#000);
+
+}
+
+.hero h1{
+
+font-family:"Playfair Display";
+font-size:90px;
+
+background:linear-gradient(90deg,#ff2e8f,#ff79b0);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+.hero p{
+margin-top:20px;
+color:#aaa;
+}
+
+.section{
+padding:120px 10%;
+}
+
+.story{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+}
+
+.story img{
+width:100%;
+height:500px;
+object-fit:cover;
+}
+
+.story h2{
+font-family:"Playfair Display";
+font-size:40px;
+color:#ff2e8f;
+margin-bottom:20px;
+}
+
+.story p{
+color:#bbb;
+line-height:1.8;
+}
+
+.values{
+margin-top:100px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#0a0a0a;
+padding:40px;
+border:1px solid #111;
+transition:.4s;
+}
+
+.card:hover{
+border-color:#ff2e8f;
+transform:translateY(-5px);
+}
+
+.card h3{
+font-family:"Playfair Display";
+margin-bottom:15px;
+color:#ff2e8f;
+}
+
+.card p{
+color:#aaa;
+}
+
+.quote{
+
+text-align:center;
+padding:140px 20%;
+font-family:"Playfair Display";
+font-size:38px;
+color:#ff79b0;
+
+}
+
+footer{
+padding:60px;
+text-align:center;
+border-top:1px solid #111;
+color:#777;
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:55px;
+}
+
+.story{
+grid-template-columns:1fr;
+}
+
+.quote{
+font-size:28px;
+padding:100px 10%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<section class="hero">
+
+<div>
+    <nav>
+    <a href="Index.html" style="font-size: 35px;color: deeppink;font-family: Arial;">Home</a>
+</nav>
+
+<h1>About OG</h1>
+
+<p>The vision behind the fashion house</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="story">
+
+<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b">
+
+<div>
+
+<h2>Our Story</h2>
+
+<p>
+OG’s Fashion House was created with a vision to redefine modern fashion
+through bold creativity and elegant craftsmanship. Inspired by fashion
+editorials and contemporary design, the brand focuses on creating
+pieces that empower confidence and individuality.
+</p>
+
+<br>
+
+<p>
+Each design reflects artistic expression and attention to detail,
+ensuring that every piece tells a story of style, identity, and
+confidence.
+</p>
+
+</div>
+
+</div>
+
+<div class="values">
+
+<div class="card">
+
+<h3>Our Mission</h3>
+
+<p>
+To design fashion that empowers confidence and celebrates
+individuality through creative and elegant design.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Our Vision</h3>
+
+<p>
+To become a globally recognized fashion brand known
+for bold creativity and timeless luxury.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Our Craft</h3>
+
+<p>
+Every piece is crafted with attention to detail,
+combining modern style with premium craftsmanship.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="quote">
+
+"Fashion is more than clothing.  
+It is confidence, identity, and art."
+
+</section>
+
+<footer>
+
+<p>© 2026 OG's Fashion House</p>
+
+</footer>
+
+</body>
+
+</html>
